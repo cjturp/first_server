@@ -5,6 +5,6 @@ get "/sinatra" do
 end
 
 
-get '/si' do
-  "Hola Sinatra"
-end
+# get '/si' do
+#   "Hola Sinatra"
+# end
