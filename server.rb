@@ -1,14 +1,5 @@
 require 'sinatra'
 
 get "/" do
-  "hello world"
+  File.new('public/hello.txt').readlines
 end
-
-get "/sinatra" do
-	"Hello Sinatra"
-end
-
-
-# get '/si' do
-#   "Hola Sinatra"
-# end
